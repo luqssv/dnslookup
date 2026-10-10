@@ -1,0 +1,6 @@
+# One domain per line
+
+example.com
+google.com
+cloudflare.com
+wikipedia.org

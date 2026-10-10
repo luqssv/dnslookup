@@ -1,0 +1,9 @@
+# Build outputs
+/dnslookup
+/src/*.o
+
+# Editor and operating system files
+.DS_Store
+*.swp
+*.swo
+*~
