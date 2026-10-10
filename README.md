@@ -127,28 +127,6 @@ To see the command summary and options:
 ./dnslookup --help
 ```
 
-## Create and push a GitHub repository
-
-Install [GitHub CLI](https://cli.github.com/) and Git if they are not already
-installed. Sign in to GitHub from the terminal:
-
-```bash
-gh auth login
-```
-
-From the project directory, initialize Git, commit the project files, then
-create a public GitHub repository and push the commit:
-
-```bash
-git init -b main
-git add .
-git commit -m "Initial commit"
-gh repo create dnslookup --public --source=. --remote=origin --push
-```
-
-Use `--private` instead of `--public` if you want a private repository. The
-`.gitignore` file excludes the compiled executable and object files from Git.
-
 ## Training and responsible use
 
 Use this project to learn how DNS record types, TTLs, reverse lookups, and
